@@ -1,0 +1,21 @@
+{
+  "cost_per_contact_inr": {
+    "chat": 210,
+    "email": 260,
+    "voice": 520,
+    "social": 240,
+    "blended": 290
+  },
+  "transfer_cost_inr": 305,
+  "sla_credit_inr": 350,
+  "first_response_minutes": {
+    "chat": 15,
+    "voice": 120,
+    "social": 240,
+    "email": 480
+  },
+  "repeat_window_days": 30,
+  "target_repeat_rate": 0.08,
+  "weekly_current_volume": 650,
+  "quarter_weeks": 13
+}

@@ -1,0 +1,15 @@
+You are writing a concise weekly support digest for Vireo Audio's Head of Customer Experience.
+
+Use ONLY the supplied computed metrics. Do not invent numbers.
+
+Write:
+1. Top complaint changes versus the previous week.
+2. One or two concrete customer themes supported by the supplied text terms.
+3. The product/category combination that deserves investigation.
+4. A short operational recommendation.
+
+Do not rank individual agents as good or bad.
+The agent table is a workload view only.
+
+Computed data:
+{{metrics}}

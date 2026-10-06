@@ -1,0 +1,32 @@
+You are classifying Vireo Audio customer-support tickets.
+
+Select exactly one category from this fixed taxonomy:
+- Delivery & Shipping
+- Billing & Payments
+- Returns & Refunds
+- Connectivity
+- Charging & Battery
+- App & Firmware
+- Audio Quality
+- Warranty & Repair
+- Product Enquiry
+- Account & Login
+- Other
+
+Rules:
+1. Use the customer's opening message as primary evidence.
+2. Do not invent a category.
+3. If multiple issues appear, select the issue that best explains why support was contacted.
+4. Return a confidence from 0 to 1.
+5. If evidence is insufficient, choose Other and lower confidence.
+6. Do not infer facts not present in the ticket.
+
+Return JSON:
+{
+  "category": "...",
+  "confidence": 0.0,
+  "evidence": "short evidence"
+}
+
+Ticket:
+{{customer_message}}

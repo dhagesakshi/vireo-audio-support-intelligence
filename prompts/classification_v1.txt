@@ -1,0 +1,6 @@
+Classify this Vireo customer support ticket and identify the main issue.
+
+Ticket:
+{{customer_message}}
+
+Return the issue category.
